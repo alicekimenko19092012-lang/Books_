@@ -1,0 +1,48 @@
+/* Загальні налаштування сторінки */
+body {
+    font-family: Arial, sans-serif; /* Стиль шрифту */
+    background-color: #f2f2f2;       /* Колір фону сторінки */
+    color: #333333;                  /* Колір тексту */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовків */
+h1, h2, h3 {
+    text-align: center;              /* Вирівнювання по центру */
+    color: #0055aa;                  /* Синій колір заголовків */
+}
+
+/* Оформлення посилань */
+a {
+    color: #0077cc;                  /* Колір посилання */
+    text-decoration: none;           /* Без підкреслення */
+}
+
+a:hover {
+    text-decoration: underline;      /* Підкреслення при наведенні */
+}
+
+/* Стилі блоку контенту */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Оформлення кнопок */
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
